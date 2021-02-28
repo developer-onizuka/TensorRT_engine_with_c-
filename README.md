@@ -7,12 +7,13 @@
 see also https://github.com/developer-onizuka/webcamera.
 ```
 ----- in the container -----
-root@52b289cd78c4:/workspace# export QT_X11_NO_MITSHM=1
+# export QT_X11_NO_MITSHM=1
 ```
 
 # 3. install opencv3
 see also https://github.com/developer-onizuka/install_opencv_3.x.
 ```
+----- in the container -----
 # dpkg -l | grep opencv
 # sudo apt-get update
 # sudo apt -y install libopencv-dev opencv-data
