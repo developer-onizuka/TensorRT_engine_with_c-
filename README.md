@@ -49,6 +49,10 @@ see also https://github.com/developer-onizuka/install_opencv_3.x.
 # dpkg -l | grep opencv
 # sudo apt-get update
 # sudo apt -y install libopencv-dev opencv-data
+```
+
+You might need the step below:
+```
 # sudo apt -y install libopencv-dev opencv-data --fix-missing
 ```
 
