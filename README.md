@@ -27,8 +27,7 @@ My hardware is
    ----- Total JPY 36,406 -----
 ```
 
-see also the URL below:
-https://github.com/developer-onizuka/gpudirect_storage
+see also https://github.com/developer-onizuka/gpudirect_storage.
 
 
 # 1. docker run
