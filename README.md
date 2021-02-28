@@ -20,5 +20,30 @@ see also https://github.com/developer-onizuka/install_opencv_3.x.
 # sudo apt -y install libopencv-dev opencv-data --fix-missing
 ```
 
+# 4. git clone and build
+see also https://github.com/fixstars/Jetson-Edge-Vision-Example.
+```
+----- in the container -----
+# pwd
+/workspace/tlt-experiments/sample
+# git clone https://github.com/fixstars/Jetson-Edge-Vision-Example.git
+# cd Jetson-Edge-Vision-Example/
+# mkdir build
+# cd build/
+# cmake ..
+# make
+# ls
+CMakeCache.txt  CMakeFiles  Makefile  app  cmake_install.cmake
+```
+# 5. copy engine which translated by tlt-converter
+see also https://github.com/developer-onizuka/deepstream.
+```
+# pwd
+/workspace/tlt-experiments
+# cp -p model/tlt_facedetectir_vpruned_v1.0/resnet18_facedetectir_pruned.engine sample/Jetson-Edge-Vision-Example/build/trt.engine
+```
 
-
+# 6. run
+```
+# ./app
+```
